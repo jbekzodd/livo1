@@ -1,0 +1,21 @@
+{
+  "name": "livo-chess",
+  "version": "1.0.0",
+  "description": "LIVO Chess - intelligent chess analysis platform",
+  "main": "src/bot.js",
+  "scripts": {
+    "start": "node src/bot.js"
+  },
+  "keywords": [
+    "chess",
+    "lichess",
+    "telegram",
+    "livo"
+  ],
+  "author": "LIVO",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "telegraf": "^4.16.3"
+  }
+}
